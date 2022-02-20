@@ -10,13 +10,13 @@ Demo:
 
 ```tsx
 import React, { useState } from 'react';
-import { Switch } from 'axis-react-switch';
+import { AxisSwitch } from 'axis-react-switch';
 
 function App() {
   const [value, setValue] = useState(false);
   return (
     <div className="app">
-      <Switch
+      <AxisSwitch
         checked={value}
         onColor="#EF476F"
         onChange={() => setValue(!value)}

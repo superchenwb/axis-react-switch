@@ -37,6 +37,6 @@ export const AxisSwitch: React.FC<IAxisSwitchProps> = ({
   );
 };
 
-Switch.defaultProps = {
+AxisSwitch.defaultProps = {
   checkedColor: '#EF476F',
 };
