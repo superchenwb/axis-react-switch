@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-export interface ISwitchProps {
+export interface IAxisSwitchProps {
   checked?: boolean;
   onChange?: (e: React.SyntheticEvent) => void;
   checkedColor?: string;
@@ -9,7 +9,7 @@ export interface ISwitchProps {
   style?: React.CSSProperties;
 }
 
-export const Switch: React.FC<ISwitchProps> = ({
+export const AxisSwitch: React.FC<IAxisSwitchProps> = ({
   className,
   style,
   checked,
