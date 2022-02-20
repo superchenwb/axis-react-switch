@@ -17,9 +17,8 @@ function App() {
   return (
     <div className="app">
       <AxisSwitch
-        checked={value}
+        
         onColor="#EF476F"
-        onChange={() => setValue(!value)}
       />
     </div>
   );

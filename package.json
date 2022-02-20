@@ -1,6 +1,6 @@
 {
   "name": "axis-react-switch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -26,6 +26,7 @@
     ]
   },
   "dependencies": {
+    "ahooks": "^3.1.9",
     "react": "^16.12.0 || ^17.0.0"
   },
   "files": [
