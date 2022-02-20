@@ -1,6 +1,6 @@
 {
   "name": "axis-react-switch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -28,6 +28,9 @@
   "dependencies": {
     "react": "^16.12.0 || ^17.0.0"
   },
+  "files": [
+    "es"
+  ],
   "devDependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^12.1.2",
