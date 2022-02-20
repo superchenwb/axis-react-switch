@@ -5,11 +5,20 @@ export interface ISwitchProps {
   checked?: boolean;
   onChange?: (e: React.SyntheticEvent) => void;
   checkedColor?: string;
+  className?: string;
+  style?: React.CSSProperties;
 }
 
-export const Switch: React.FC<ISwitchProps> = ({ checked, onChange, checkedColor }) => {
+export const Switch: React.FC<ISwitchProps> = ({
+  className,
+  style,
+  checked,
+  onChange,
+  checkedColor,
+  ...rest
+}) => {
   return (
-    <>
+    <div className={className} style={style} {...rest}>
       <input
         checked={checked}
         onChange={onChange}
@@ -24,7 +33,7 @@ export const Switch: React.FC<ISwitchProps> = ({ checked, onChange, checkedColor
       >
         <span className={`react-switch-button`} />
       </label>
-    </>
+    </div>
   );
 };
 
